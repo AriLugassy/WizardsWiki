@@ -104,3 +104,32 @@ width: 100%;
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
 }
+
+/* Nav css and stuff yeah */
+
+header nav menu li {
+    list-style: none;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav menu#main-menu {
+    display: flex;
+    gap: 50px;
+}
+header nav menu.dropdown {
+    display: none;
+}
+header nav .dropdown-trigger:hover menu.dropdown {
+    display: block;
+    position: absolute;
+}
+nav button {
+    background-color: transparent;
+    border: 0;
+    font-family: lancelot; 
+    color: aliceblue;
+    
+}
