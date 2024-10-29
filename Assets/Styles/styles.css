@@ -8,7 +8,7 @@ body {
     background-color:#F0E2CB;
     font-size:18px;
     font-family:"Lancelot";
-    width: 60%;
+    width: 800px;
     margin: auto;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -131,5 +131,5 @@ nav button {
     border: 0;
     font-family: lancelot; 
     color: aliceblue;
-    
+
 }
