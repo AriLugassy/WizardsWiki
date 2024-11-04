@@ -8,8 +8,8 @@ body {
     background-color:#F0E2CB;
     font-size:18px;
     font-family:"Lancelot";
-    width: 800px;
     margin: auto;
+    width: 60%;
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -132,4 +132,44 @@ nav button {
     font-family: lancelot; 
     color: aliceblue;
 
+}
+
+
+
+
+#mobile-menu-button {
+    display: none;
+}
+
+
+
+
+/* media things */
+
+
+
+
+@media (max-width: 1080px) {
+    body {
+        width: 60%;
+        margin: auto;
+    }
+
+}
+@media (max-width: 880px) {
+    body {
+        width: 60%;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    #mobile-menu-button {
+        display: block;
+    }
+    #main-menu {
+        display: none;
+    }
+   
 }
